@@ -60,7 +60,7 @@ if __name__=='__main__':
 
     unit=1000
     maxtime_iter=100000
-    walkers=50
+    walkers=10000 # number of walkers
     num_cores = int(mp.cpu_count())
     pool = mp.Pool(num_cores)
 
